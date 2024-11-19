@@ -1,0 +1,19 @@
+<div class="product-list">
+    <h2>The insole are confortable so you can wear them everyday</h2>
+    <ul>
+        <li *ngFor="let product of products">
+        <div class="bg">
+            <img src="{{product.img}}" alt="" class="tenis">
+            
+            <div class="coracao">
+                ❤️
+            </div>
+        </div>
+            <h3 class="name">{{ product.name }}</h3>
+            <p class="description">{{ product.description }}</p>
+           <div class="BP"> <p class="preco">{{ product.price | currency: 'BRL' }}</p>
+            <button>Add to cart</button>
+           </div>
+        </li>
+    </ul>
+</div>
