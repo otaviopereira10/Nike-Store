@@ -11,5 +11,5 @@ import { CardsComponent } from './cards/cards.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Library';
+  title = 'Popular';
 }
